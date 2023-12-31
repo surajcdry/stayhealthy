@@ -10,7 +10,7 @@ That is why I created this Chrome Extension. With the help of this extension, I 
 
 This Chrome extension can help you not only prevent eye strain but also help you stay hydrated and stand for a bit every 20 minutes. You can, of course, easily tweak the interval as you please with basic customization.
 
-**Note:** This extension was originally submitted as my final project for [Harvard's CS50 course](cs50.harvard.edu/x).
+**Note:** This extension was originally submitted as my final project for [Harvard's CS50 course](https://cs50.harvard.edu/x).
 
 ## Getting Started
 
