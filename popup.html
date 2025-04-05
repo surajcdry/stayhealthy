@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stay healthy!</title>
-    <style>
-        button{
-            width: 200px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" />
     <script defer src="popup.js"></script>
   </head>
 
   <body>
-    <button id="btn">Keep me healthy</button>
+    <div class="container">
+      <h2>Reminder Interval</h2>
+      <label for="minutes">Minutes:</label>
+      <input
+        type="number"
+        placeholder="minutes"
+        name="timer"
+        id="timer"
+        min="1"
+        value="25"
+      />
+      <button id="start">Start</button>
+      <button id="reset">Reset</button>
+      <div id="countdown" class="countdown-display"></div>
+    </div>
   </body>
 </html>

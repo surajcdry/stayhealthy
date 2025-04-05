@@ -1,23 +1,22 @@
 {
-    "name": "Stay Healthy",
-    "description": "Remind yourself to take breaks. Stay Healthy!",
-    "version": "1.0",
-    "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "icons": {
-        "16": "alarm.png",
-        "32": "alarm.png",
-        "48": "alarm.png",
-        "128": "alarm.png"
-      },
-    "permissions": [
-        "notifications",
-        "storage",
-        "alarms"
-    ],
-    "action": {
-        "default_popup": "popup.html"
-    }
+  "name": "Stay Healthy",
+  "description": "Reminds you to take breaks to maintain your health while working on the computer",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "alarm.png",
+    "32": "alarm.png",
+    "48": "alarm.png",
+    "128": "alarm.png"
+  },
+  "permissions": ["alarms", "notifications", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "alarm.png"
+  },
+  "author": "Suraj Chaudhary",
+  "homepage_url": "https://github.com/surajcdry/stayhealthy"
 }
